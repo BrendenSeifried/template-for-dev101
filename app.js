@@ -12,5 +12,5 @@ console.log('missing semi-colon');
 const x = 3;
 
 if (x === 3) {
-console.log(x);
+    console.log(x);
 }
