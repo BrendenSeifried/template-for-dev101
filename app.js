@@ -1,17 +1,10 @@
-/* eslint-disable no-console */
-// import functions
 
-// grab DOM elements
 
-// set event listeners 
-    // get user input
-    // use user input to update state 
-    // update DOM to reflect the new state
 
-console.log('missing semi-colon');
+import { score, generateThrow } from './game.js';
 
-const x = 3;
+console.log(generateThrow());
 
-if (x === 3) {
-    console.log(x);
-}
+const player = document.getElementById('player');
+const computer = document.getElementById('computer');
+
