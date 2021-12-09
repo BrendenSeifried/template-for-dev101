@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 // import functions
 
 // grab DOM elements
