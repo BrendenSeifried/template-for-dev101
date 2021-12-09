@@ -22,7 +22,7 @@ test('player rock, computer rock is tie', (expect) => {
     expect.equal(actual, expected);
 });
 
-test('player rock, computer scissors is palyer', (expect) => {
+test('player rock, computer scissors is player', (expect) => {
     //Arrange
     // Set up your arguments and expectations
     const player = 'rock';
@@ -86,7 +86,7 @@ test('player paper, computer scissors is computer', (expect) => {
     expect.equal(actual, expected);
 });
 
-test('player paper, computer rock is computer', (expect) => {
+test('player paper, computer rock is player', (expect) => {
     //Arrange
     // Set up your arguments and expectations
     const player = 'paper';
@@ -134,7 +134,7 @@ test('player scissors, computer scissors is tie', (expect) => {
     expect.equal(actual, expected);
 });
 
-test('player scissors, computer rock is player', (expect) => {
+test('player scissors, computer rock is computer', (expect) => {
     //Arrange
     // Set up your arguments and expectations
     const player = 'scissors';
