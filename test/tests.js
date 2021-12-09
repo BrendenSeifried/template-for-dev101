@@ -13,8 +13,7 @@ test('player rock, computer rock is tie', (expect) => {
     const computer = 'rock';
     const expected = 'tie';
     
-    //Act 
-    // Call the function you're testing and set the result to a const
+   
     const actual = score(player, computer);
 
     //Expect
@@ -29,8 +28,7 @@ test('player rock, computer scissors is player', (expect) => {
     const computer = 'scissors';
     const expected = 'player';
     
-    //Act 
-    // Call the function you're testing and set the result to a const
+   
     const actual = score(player, computer);
 
     //Expect
@@ -45,8 +43,7 @@ test('player rock, computer paper is computer', (expect) => {
     const computer = 'paper';
     const expected = 'computer';
     
-    //Act 
-    // Call the function you're testing and set the result to a const
+   
     const actual = score(player, computer);
 
     //Expect
@@ -61,8 +58,7 @@ test('player paper, computer paper is tie', (expect) => {
     const computer = 'paper';
     const expected = 'tie';
     
-    //Act 
-    // Call the function you're testing and set the result to a const
+   
     const actual = score(player, computer);
 
     //Expect
@@ -77,8 +73,7 @@ test('player paper, computer scissors is computer', (expect) => {
     const computer = 'scissors';
     const expected = 'computer';
     
-    //Act 
-    // Call the function you're testing and set the result to a const
+   
     const actual = score(player, computer);
 
     //Expect
@@ -93,8 +88,7 @@ test('player paper, computer rock is player', (expect) => {
     const computer = 'rock';
     const expected = 'player';
     
-    //Act 
-    // Call the function you're testing and set the result to a const
+   
     const actual = score(player, computer);
 
     //Expect
@@ -109,8 +103,7 @@ test('player scissors, computer paper is player', (expect) => {
     const computer = 'paper';
     const expected = 'player';
     
-    //Act 
-    // Call the function you're testing and set the result to a const
+   
     const actual = score(player, computer);
 
     //Expect
@@ -125,8 +118,7 @@ test('player scissors, computer scissors is tie', (expect) => {
     const computer = 'scissors';
     const expected = 'tie';
     
-    //Act 
-    // Call the function you're testing and set the result to a const
+   
     const actual = score(player, computer);
 
     //Expect
@@ -141,8 +133,7 @@ test('player scissors, computer rock is computer', (expect) => {
     const computer = 'rock';
     const expected = 'computer';
     
-    //Act 
-    // Call the function you're testing and set the result to a const
+   
     const actual = score(player, computer);
 
     //Expect
