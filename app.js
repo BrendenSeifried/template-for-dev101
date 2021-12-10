@@ -1,35 +1,24 @@
 
-
-
-//import { score, generateThrow, rockThrow, paperThrow, scissorsThrow } from './game.js';
-
-import { score, generateThrow } from './game.js';
-
-// console.log(generateThrow());
-// console.log(generateThrow());
-// console.log(generateThrow());
-
-const buttons = document.querySelectorAll('.throwButton');
+import { score, generateThrow } from '../game.js';
+const buttons = document.querySelectorAll('.check');
 const selectionDisplay = document.getElementById('selection-display');
 for (let button of buttons) {
-    button.addEventListener('click', () =>{
-        selectionDisplay.textContent = button.value;
-        const player = button.value;
-        const computer = generateThrow();
+    button.addEventListener('click', () => {
+        selectionDisplay.textContent = check.value;
+        const player = check.value;
+        const computer = generateThrows();
         const result = score(player, computer);
-        //console.log(player, computer, result);
-        // if (result === 'player') {
-        //     const playercount = o;
-        //     playerCount++
-        // }
-        // else if (result === 'computer' 
-        //     const computerCount = 0;
-        //     computer count +=
-        // }
-        selectionDisplay.textContent = result;
+        console.log(player, computer, result);
 
     });
 }
+
+
+
+// console.log(generateThrow());
+// console.log(generateThrow());
+// console.log(generateThrow());
+
 
 
 // subscribe to button click
@@ -38,7 +27,6 @@ for (let button of buttons) {
 //     console.log(rock());
     
 // });
-
 
 
 
